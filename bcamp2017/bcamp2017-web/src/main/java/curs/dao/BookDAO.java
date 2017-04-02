@@ -130,7 +130,7 @@ public class BookDAO {
 		return b;
 	}
 
-	public static void initData(EntityManager pEM) {
+	/*public static void initData(EntityManager pEM) {
 		pEM.getTransaction().begin();
 		Query nq = pEM.createNativeQuery("DELETE FROM book");
 		nq.executeUpdate();
@@ -160,5 +160,5 @@ public class BookDAO {
 		b.setAvailableCount(19);
 		pEM.persist(b);
 		pEM.getTransaction().commit();
-	}
+	}*/
 }

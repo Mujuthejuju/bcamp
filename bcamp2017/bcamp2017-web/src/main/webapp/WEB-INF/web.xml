@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
-  <display-name>Day31</display-name>
+  <display-name>Bcamp2017</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>

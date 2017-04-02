@@ -1,5 +1,6 @@
 package curs.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -19,7 +20,7 @@ import curs.interfaces.ShoppingCartItemInterface;
 @SessionScoped
 @Entity
 @Table(name = "cart_item")
-public class ShoppingCart implements ShoppingCartInterface {
+public class ShoppingCart implements ShoppingCartInterface, Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

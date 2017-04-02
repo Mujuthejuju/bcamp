@@ -16,7 +16,7 @@
      <properties>
       <property
         name="javax.persistence.nonJtaDataSource"
-        value="java:/comp/env/jdbc/postgres_test" />
+        value="java:/comp/env/jdbc/postgres" />
       <!--  
       <property
         name="javax.persistence.jdbc.url"
